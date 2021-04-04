@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+    digichlist-front:
+        container_name: digichlist-front
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '80:80'
